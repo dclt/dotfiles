@@ -1,0 +1,35 @@
+# mocp-theme-churro by dnt
+# adapted from 'solarized' by Vitaŭt Bajaryn and 'green' by Jacek Lehmann
+
+background		= default	default
+frame			= default	default
+window_title		= default	default
+directory		= default	default
+selected_directory	= yellow	default
+playlist		= default	default
+selected_playlist	= default	default bold
+file			= default	default
+selected_file		= default	yellow
+marked_file		= magenta	default bold
+marked_selected_file	= magenta	default bold
+info			= blue		default
+status			= blue		default
+title			= blue		default
+state			= blue		default
+current_time		= blue		default
+time_left		= blue		default
+total_time		= blue		default
+time_total_frames	= blue		default bold
+sound_parameters	= blue		default
+legend			= default	default
+disabled		= default	default
+enabled			= default	default bold
+empty_mixer_bar		= blue		default
+filled_mixer_bar	= default	blue
+empty_time_bar		= blue		default
+filled_time_bar		= default	blue
+entry			= yellow	default
+entry_title		= red		default
+error			= red		default
+message			= yellow	default
+plist_time		= blue		default bold

@@ -1,0 +1,71 @@
+# This is a configuration file for the MOC player.  It should be named
+# 'config' and placed in the ~/.moc directory.  As this file can specify
+# commands which invoke other applications, MOC will refuse to start if it
+# is not owned by either root or the current user, or if it is writable by
+# anyone other than its owner.  All options are given with their default
+# values, and therefore commented.
+
+# Show file titles (title, author, album) instead of file names?
+#ReadTags = yes
+#StartInMusicDir = no
+#Sort = FileName
+#ShowStreamErrors = no
+#MP3IgnoreCRCErrors = yes
+
+# Set playback toggles.
+#Repeat = no
+#Shuffle = no
+#AutoNext = yes
+
+# Default FormatString:
+#
+#   %n - Track number
+#   %a - Artist
+#   %A - Album
+#   %t - Title
+#   %(X:TRUE:FALSE) - Ternary expression: if X exists, do TRUE,
+#                     otherwise FALSE.  The escape character must
+#                     be doubled (i.e., '\\').  (See zshmisc
+#                     documentation for more information.)
+#
+#FormatString = "%(n:%n :)%(a:%a - :)%(t:%t:)%(A: \(%A\):)"
+
+#ShowHiddenFiles = no
+#HideFileExtension = no
+#ShowFormat = yes
+#ShowTime = IfAvailable
+#ShowTimePercent = no
+#ScreenTerms = screen:screen-w:vt100
+
+#XTerms = xterm
+#XTerms += xterm-colour:xterm-color
+#XTerms += xterm-256colour:xterm-256color
+#XTerms += rxvt:rxvt-unicode
+#XTerms += rxvt-unicode-256colour:rxvt-unicode-256color
+#XTerms += eterm
+
+# ~/.moc/themes/
+Theme = churro
+
+#XTermTheme =
+#SavePlaylist = yes
+#SyncPlaylist = yes
+#ASCIILines = no
+#SeekTime = 1
+#SilentSeekTime = 5
+#PlaylistNumbering = yes
+
+#Layout1 = directory(0,0,50%,100%):playlist(50%,0,FILL,100%)
+Layout1 = directory(0,0,100%,100%):playlist(0,0,100%,100%)
+Layout3 = playlist(0,0,100%,10):directory(0,10,100%,FILL)
+
+#FollowPlayedFile = yes
+#CanStartInPlaylist = yes
+#SetXtermTitle = yes
+#SetScreenTitle = yes
+#PlaylistFullPaths = yes
+#BlockDecorators = "`\"'"
+#MessageLingerTime = 3
+#PrefixQueuedMessages = yes
+#ErrorMessagesQueued = "!"
+#QueueNextSongReturn = yes
